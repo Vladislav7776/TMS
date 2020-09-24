@@ -16,5 +16,12 @@ class MainActivity : AppCompatActivity() {
             val myIntent = Intent(this, MainActivity2::class.java) // намерение
             startActivity(myIntent)
         }
+        button2.setOnClickListener {
+
+            val myIntent = Intent(this, MainActivity3::class.java) // намерение
+            startActivity(myIntent)
+        }
+
+
     }
 }

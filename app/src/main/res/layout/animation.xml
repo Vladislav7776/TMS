@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AnimationActivity">
+
+    <ImageView
+        android:id="@+id/main_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/main_background"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="-45dp"
+        android:contentDescription="@string/todo" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Start"
+        android:textSize="30sp"
+        android:background="@drawable/button_stroke_black95_press_white"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        app:layout_anchor="@+id/linearLayout"
+        app:layout_anchorGravity="start|bottom" />
+
+    <Button
+        android:id="@+id/buttonStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Stop"
+        android:background="@drawable/button_stroke_black95_press_white"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textSize="30sp"
+        app:layout_anchor="@+id/linearLayout"
+        app:layout_anchorGravity="end|bottom" />
+
+    <ImageView
+        android:id="@+id/imageCat"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        app:layout_anchor="@+id/linearLayout"
+        app:layout_anchorGravity="center"
+        tools:srcCompat="@tools:sample/avatars"
+        android:contentDescription="@string/todo" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FlagActivity">
+
+
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:id="@+id/Spain1"
+            android:layout_width="100dp"
+            android:layout_height="15dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+
+            android:background="#FF0000" />
+
+        <TextView
+            android:id="@+id/Spain2"
+            android:layout_width="100dp"
+            android:layout_height="15dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="60dp"
+
+            android:background="#FF0000" />
+
+
+        <TextView
+            android:id="@+id/Spain3"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="25dp"
+            android:background="#FFC107">
+
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/Armenia"
+            android:layout_width="100dp"
+            android:layout_height="22dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="#E40808" />
+
+        <TextView
+            android:id="@+id/Armeni2"
+            android:layout_width="100dp"
+            android:layout_height="22dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="10dp"
+            android:background="#128BEC" />
+
+        <TextView
+            android:id="@+id/Armeni3"
+            android:layout_width="100dp"
+            android:layout_height="21dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="53dp"
+            android:layout_marginEnd="10dp"
+            android:background="#FF9800" />
+        <TextView
+            android:id="@+id/Austria1"
+            android:layout_width="100dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="150dp"
+
+            android:background="#FF4141" />
+        <TextView
+            android:id="@+id/Austria3"
+            android:layout_width="100dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="194dp"
+
+            android:background="#FF4141" />
+        <TextView
+            android:id="@+id/Latvia1"
+            android:layout_width="100dp"
+            android:layout_height="27dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginEnd="10dp"
+            android:background="#E4354F" />
+        <TextView
+            android:id="@+id/Latvia3"
+            android:layout_width="100dp"
+            android:layout_height="27dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="189dp"
+            android:layout_marginEnd="10dp"
+            android:background="#E4354F" />
+        <TextView
+            android:id="@+id/Belgium1"
+            android:layout_width="33dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="270dp"
+
+            android:background="#000000" />
+        <TextView
+            android:id="@+id/Belgium2"
+            android:layout_width="33dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="43dp"
+            android:layout_marginTop="270dp"
+
+            android:background="#FFC107" />
+        <TextView
+            android:id="@+id/Belgium3"
+            android:layout_width="33dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="76dp"
+            android:layout_marginTop="270dp"
+
+            android:background="#F44336" />
+
+        <TextView
+            android:id="@+id/Denmark1"
+            android:layout_width="100dp"
+            android:layout_height="29dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="270dp"
+            android:layout_marginEnd="10dp"
+            android:background="#E11414" />
+
+
+
+        <TextView
+            android:id="@+id/Denmark3"
+            android:layout_width="100dp"
+            android:layout_height="29dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="307dp"
+            android:layout_marginEnd="10dp"
+            android:background="#E11414" />
+
+        <TextView
+            android:id="@+id/Demark2"
+            android:layout_width="7dp"
+            android:layout_height="65dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="80dp"
+            android:layout_marginTop="270dp"
+
+            android:background="#FFFFFF" />
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_alignTop="@+id/Spain2"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/Spain"
+            android:textAlignment="center"
+            android:textSize="20sp"
+
+
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_alignTop="@+id/Armeni3"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="10dp"
+            android:text="@string/Armenia"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_alignTop="@+id/Austria3"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="25dp"
+            android:text="@string/Austria"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_alignTop="@+id/Latvia3"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="10dp"
+            android:text="@string/Latvia"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_alignTop="@+id/Belgium2"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="70dp"
+            android:text="@string/Belgium"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_alignTop="@+id/Denmark3"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="10dp"
+            android:text="@string/Denmark"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+
+    </RelativeLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
