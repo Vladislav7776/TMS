@@ -11,6 +11,5 @@ class FlagActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.flag)
 
-
     }
 }

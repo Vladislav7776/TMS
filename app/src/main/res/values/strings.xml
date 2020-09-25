@@ -28,8 +28,6 @@
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="title_activity_animation">MainActivity</string>
     <string name="title_activity_flag">MainActivity</string>
-    <string name="todo">TODO</string>
-    <string name="todo">TODO</string>
-    <string name="todo">TODO</string>
+
 
 </resources>

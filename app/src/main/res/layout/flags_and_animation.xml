@@ -20,7 +20,7 @@
             android:scaleType="centerCrop"
             android:src="@drawable/main_background"
             tools:ignore="ContentDescription,MissingConstraints"
-            android:contentDescription="@string/todo">
+           >
 
         </ImageView>
 
@@ -33,7 +33,7 @@
             android:paddingLeft="15dp"
             android:paddingRight="15dp"
             android:text="@string/flag"
-            android:textColor="#FF0000"
+            android:textColor="@color/red"
             android:textSize="30sp"
             app:layout_constraintBottom_toTopOf="@+id/buttonAnimation"
             app:layout_constraintEnd_toEndOf="parent"
@@ -44,7 +44,7 @@
             android:id="@+id/buttonAnimation"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="#FF0000"
+            android:textColor="@color/red"
             android:background="@drawable/button_stroke_black95_press_white"
             android:paddingLeft="15dp"
             android:paddingRight="15dp"

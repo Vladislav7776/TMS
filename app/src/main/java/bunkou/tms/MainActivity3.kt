@@ -12,17 +12,14 @@ class MainActivity3 : AppCompatActivity() {
         setContentView(R.layout.flags_and_animation)
 
         buttonFlags.setOnClickListener {
-            val  myIntent= Intent(this,FlagActivity::class.java)
+            val myIntent = Intent(this, FlagActivity::class.java)
             startActivity(myIntent)
         }
 
         buttonAnimation.setOnClickListener {
-            val  myIntent= Intent(this,AnimationActivity::class.java)
+            val myIntent = Intent(this, AnimationActivity::class.java)
             startActivity(myIntent)
         }
-
-
-
 
 
     }

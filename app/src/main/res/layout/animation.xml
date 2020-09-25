@@ -4,17 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AnimationActivity">
+    tools:context=".AnimationActivity"
+    android:background="@color/turquoise">
 
-    <ImageView
-        android:id="@+id/main_background"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:scaleType="centerCrop"
-        android:src="@drawable/main_background"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="-45dp"
-        android:contentDescription="@string/todo" />
+
 
 
     <LinearLayout
@@ -30,6 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/Start"
+        android:textColor="@color/red"
         android:textSize="30sp"
         android:background="@drawable/button_stroke_black95_press_white"
         android:paddingLeft="15dp"
@@ -42,6 +36,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/Stop"
+        android:textColor="@color/red"
         android:background="@drawable/button_stroke_black95_press_white"
         android:paddingLeft="15dp"
         android:paddingRight="15dp"
@@ -55,7 +50,7 @@
         android:layout_height="400dp"
         app:layout_anchor="@+id/linearLayout"
         app:layout_anchorGravity="center"
-        tools:srcCompat="@tools:sample/avatars"
-        android:contentDescription="@string/todo" />
+        tools:srcCompat="@drawable/cat1"
+       />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
