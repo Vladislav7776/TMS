@@ -12,15 +12,11 @@ class MainActivity2 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main2)
 
-    }
-
-    fun onClick(view: View) {
-        val url = editText.text.toString()
-        if (url.isNotEmpty()) {
-
-            val pic = Picasso.get()
-            pic.isLoggingEnabled = true
-            pic.load(url).into(imageView)
+        buttonLoad.setOnClickListener {
+            val url: String = editText.text.toString()
+            if (url.isNotEmpty()) {
+                Picasso.get().load(url).into(imageView)
+            }
         }
     }
 }
