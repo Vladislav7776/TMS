@@ -6,21 +6,15 @@
     tools:context=".FlagActivity">
 
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
 
 
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical" />
-
-
-
-
-
-    <RelativeLayout android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
         <TextView
             android:id="@+id/Spain1"
@@ -81,6 +75,7 @@
             android:layout_marginTop="53dp"
             android:layout_marginEnd="10dp"
             android:background="#FF9800" />
+
         <TextView
             android:id="@+id/Austria1"
             android:layout_width="100dp"
@@ -89,6 +84,7 @@
             android:layout_marginTop="150dp"
 
             android:background="#FF4141" />
+
         <TextView
             android:id="@+id/Austria3"
             android:layout_width="100dp"
@@ -97,6 +93,7 @@
             android:layout_marginTop="194dp"
 
             android:background="#FF4141" />
+
         <TextView
             android:id="@+id/Latvia1"
             android:layout_width="100dp"
@@ -106,6 +103,7 @@
             android:layout_marginTop="150dp"
             android:layout_marginEnd="10dp"
             android:background="#E4354F" />
+
         <TextView
             android:id="@+id/Latvia3"
             android:layout_width="100dp"
@@ -115,6 +113,7 @@
             android:layout_marginTop="189dp"
             android:layout_marginEnd="10dp"
             android:background="#E4354F" />
+
         <TextView
             android:id="@+id/Belgium1"
             android:layout_width="33dp"
@@ -123,6 +122,7 @@
             android:layout_marginTop="270dp"
 
             android:background="#000000" />
+
         <TextView
             android:id="@+id/Belgium2"
             android:layout_width="33dp"
@@ -131,6 +131,7 @@
             android:layout_marginTop="270dp"
 
             android:background="#FFC107" />
+
         <TextView
             android:id="@+id/Belgium3"
             android:layout_width="33dp"
@@ -151,7 +152,6 @@
             android:background="#E11414" />
 
 
-
         <TextView
             android:id="@+id/Denmark3"
             android:layout_width="100dp"
@@ -168,8 +168,8 @@
             android:layout_height="66dp"
             android:layout_alignParentEnd="true"
             android:layout_marginStart="10dp"
-            android:layout_marginEnd="80dp"
             android:layout_marginTop="270dp"
+            android:layout_marginEnd="80dp"
 
             android:background="#FFFFFF" />
 
@@ -255,10 +255,7 @@
             android:textStyle="bold" />
 
 
-
     </RelativeLayout>
-
-
 
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -2,29 +2,24 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/turquoise"
-    tools:context=".MainActivity2"
-    android:id="@+id/coordinatorLayout" >
-
-
+    tools:context=".MainActivity2">
 
 
     <EditText
         android:id="@+id/editText"
         android:layout_width="378dp"
         android:layout_height="65dp"
+        android:autofillHints="text"
         android:hint="@string/enter_image_URL"
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:autofillHints="" />
-
-
-
+        app:layout_constraintTop_toTopOf="parent" />
 
 
     <Button
@@ -39,18 +34,17 @@
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-       />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="450dp"
+        android:contentDescription="TODO"
         app:layout_constraintBottom_toTopOf="@+id/buttonLoad"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@drawable/car"
-        android:contentDescription="TODO" />
+        tools:srcCompat="@drawable/car" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

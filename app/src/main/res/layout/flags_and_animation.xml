@@ -19,8 +19,7 @@
             android:layout_height="wrap_content"
             android:scaleType="centerCrop"
             android:src="@drawable/main_background"
-            tools:ignore="ContentDescription,MissingConstraints"
-           >
+            tools:ignore="ContentDescription,MissingConstraints">
 
         </ImageView>
 
@@ -44,11 +43,11 @@
             android:id="@+id/buttonAnimation"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/red"
             android:background="@drawable/button_stroke_black95_press_white"
             android:paddingLeft="15dp"
             android:paddingRight="15dp"
             android:text="@string/animation"
+            android:textColor="@color/red"
             android:textSize="30sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
