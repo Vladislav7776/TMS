@@ -17,9 +17,7 @@ class MyViewModel : ViewModel() {
     fun Win_In_Crop() {
         for (country in countries) {
             CoroutineScope(Dispatchers.IO).launch {
-                country.CropGreece()
-                country.CropItaly()
-                country.CropSpain()
+                country.reapCrop()
             }.invokeOnCompletion {
                 if (win.value == null) {
                     win.postValue(country)

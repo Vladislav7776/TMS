@@ -45,18 +45,10 @@ class Harvesting : AppCompatActivity() {
                 "Grapes" -> country.Grapes.observe(this, Observer { GrapesData ->
                     textView.text = "Grapes - $GrapesData"
                 })
-                "Orange" -> country.Orange.observe(this, Observer { OrangeData ->
-                    textView.text = "Orange - $OrangeData"
-                })
-                "Fig" -> country.Fig.observe(this, Observer { FigData ->
-                    textView.text = "Fig - $FigData"
-                })
                 "Peaches" -> country.Peaches.observe(this, Observer { PeachesData ->
                     textView.text = "Peaches - $PeachesData"
                 })
-                "Tomato" -> country.Tomato.observe(this, Observer { TomatoData ->
-                    textView.text = "Tomato - $TomatoData"
-                })
+
             }
         }
     }

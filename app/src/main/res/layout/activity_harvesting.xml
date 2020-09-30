@@ -39,7 +39,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="@string/Fig"
+            android:text="@string/Grapes"
             android:textAlignment="center" />
 
         <TextView
@@ -78,7 +78,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="@string/Tomato"
+            android:text="@string/Olives"
             android:textAlignment="center" />
 
         <TextView
@@ -143,7 +143,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="@string/Orange"
+            android:text="@string/Peaches"
             android:textAlignment="center" />
 
 
