@@ -26,6 +26,8 @@
     <string name="Olives">Olives - 0</string>
     <string name="Grapes">Grapes - 0</string>
     <string name="Peaches">Peaches - 0</string>
+    <string name="Greece">Greece :</string>
+    <string name="Italy">Italy :</string>
     <string name="title_activity_main3">MainActivity3</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>

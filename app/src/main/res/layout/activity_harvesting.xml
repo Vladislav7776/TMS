@@ -18,16 +18,15 @@
         app:layout_constraintWidth_default="percent"
         app:layout_constraintWidth_percent="0.5">
 
-        <ImageView
-            android:id="@+id/imageGreece"
+        <TextView
             android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:background="@drawable/greece"
+            android:layout_height="wrap_content"
             android:gravity="center_horizontal"
+            android:text="@string/Greece"
             android:textAlignment="center" />
 
         <TextView
-
+            android:id="@+id/GreeceOlives"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
@@ -35,7 +34,7 @@
             android:textAlignment="center" />
 
         <TextView
-
+            android:id="@+id/GreeceGrapes"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
@@ -43,7 +42,7 @@
             android:textAlignment="center" />
 
         <TextView
-
+            android:id="@+id/GreecePeaches"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
@@ -62,19 +61,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintWidth_default="percent"
-        app:layout_constraintWidth_percent="0.5"
-        >
-
-        <ImageView
-            android:id="@+id/imageSpain"
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:background="@drawable/spain"
-            android:gravity="center_horizontal"
-            android:textAlignment="center" />
+        app:layout_constraintWidth_percent="0.5">
 
         <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/Spain"
+            android:textAlignment="center" />
 
+
+        <TextView
+            android:id="@+id/SpainOlives"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
@@ -82,7 +80,7 @@
             android:textAlignment="center" />
 
         <TextView
-
+            android:id="@+id/SpainGrapes"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
@@ -90,7 +88,7 @@
             android:textAlignment="center" />
 
         <TextView
-
+            android:id="@+id/SpainPeaches"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
@@ -111,19 +109,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintWidth_default="percent"
-        app:layout_constraintWidth_percent="0.5"
-        >
+        app:layout_constraintWidth_percent="0.5">
 
-        <ImageView
-            android:id="@+id/imageItaly"
+        <TextView
             android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:background="@drawable/italy"
+            android:layout_height="wrap_content"
             android:gravity="center_horizontal"
+            android:text="@string/Italy"
             android:textAlignment="center" />
 
         <TextView
-
+            android:id="@+id/ItalyOlives"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
@@ -131,7 +127,7 @@
             android:textAlignment="center" />
 
         <TextView
-
+            android:id="@+id/ItalyGrapes"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
@@ -139,7 +135,7 @@
             android:textAlignment="center" />
 
         <TextView
-
+            android:id="@+id/ItalyPeaches"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
@@ -152,12 +148,12 @@
     <Button
         android:id="@+id/button_start"
         android:layout_width="133dp"
-        android:textSize="30dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/style_btn_stroke_black95_white"
         android:paddingLeft="15dp"
         android:paddingRight="15dp"
-        android:background="@drawable/style_btn_stroke_black95_white"
-        android:layout_height="wrap_content"
         android:text="@string/Start"
+        android:textSize="30dp"
         app:layout_anchor="@+id/Greece"
         app:layout_anchorGravity="bottom|center" />
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

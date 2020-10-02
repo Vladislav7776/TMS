@@ -5,24 +5,31 @@ import androidx.lifecycle.ViewModel
 import bunkou.tms.countries.*
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.InternalCoroutinesApi
 import kotlinx.coroutines.launch
 
 class MyViewModel : ViewModel() {
 
-    private val countries = arrayListOf(GreeceCountry, ItalyCountry, SpainCountry)
+    val countries = mapOf(
+        "Greece" to Country("Greece"),
+        "Spain" to Country("Spain"),
+        "Italy" to Country("Italy")
+    )
 
     @Volatile
-    var win = MutableLiveData<Country>()
+    var winner = MutableLiveData<Country>()
 
-    fun Win_In_Crop() {
-        for (country in countries) {
+    fun findWinnerInReapingCrop() {
+        for (country in countries.values) {
             CoroutineScope(Dispatchers.IO).launch {
                 country.reapCrop()
             }.invokeOnCompletion {
-                if (win.value == null) {
-                    win.postValue(country)
+
+                if (winner.value == null) {
+                    winner.postValue(country)
                 }
             }
+
         }
     }
 }
