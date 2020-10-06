@@ -1,4 +1,4 @@
-package bunkou.tms
+package bunkou.tms.HomeWork4
 
 import android.os.Bundle
 import android.view.View
@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.children
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import bunkou.tms.countries.*
+import bunkou.tms.R
 import kotlinx.android.synthetic.main.activity_harvesting.*
 
 

@@ -1,8 +1,9 @@
-package bunkou.tms
+package bunkou.tms.HomeWork3
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import bunkou.tms.R
 import kotlinx.android.synthetic.main.flags_and_animation.*
 
 class MainActivity3 : AppCompatActivity() {
