@@ -38,20 +38,21 @@ class AddFragment : Fragment() {
                 return@setOnClickListener
 
             }
-        }
 
-        CoffeCollection.add(
-            DataCoffe(
-                editTextSort.text.toString(),  // добавляем
-                editTextPrice.text.toString().toDouble(),
-                editTextTextURL.text.toString()
+
+            CoffeCollection.add(
+                DataCoffe(
+                    editTextSort.text.toString(),  // добавляем
+                    editTextPrice.text.toString().toDouble(),
+                    editTextTextURL.text.toString()
+                )
             )
-        )
 
-        Toast.makeText(context, "Добавлено!!!", Toast.LENGTH_SHORT).show()
-        editTextSort.text.clear() // удаляет все элементы из коллекции
-        editTextPrice.text.clear()
-        editTextTextURL.text.clear()
+            Toast.makeText(context, "Добавлено!!!", Toast.LENGTH_SHORT).show()
+            editTextSort.text.clear() // удаляет все элементы из коллекции
+            editTextPrice.text.clear()
+            editTextTextURL.text.clear()
 
+        }
     }
 }

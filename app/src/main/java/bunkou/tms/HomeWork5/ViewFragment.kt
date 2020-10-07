@@ -26,7 +26,8 @@ class ViewFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_second, container, false)
+        return inflater.inflate(R.layout.fragment_third, container, false)
+
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -37,7 +38,7 @@ class ViewFragment : Fragment() {
         }
     }
 
-    fun addSort(coffee: DataCoffe) {
+  private  fun addSort(coffee: DataCoffe) {
         val brand = context?.let { // получаем доступ к ресурсам
             ConstraintLayout(it)  // аргумент it является не nullable-версией исходного объекта.
         }
@@ -45,12 +46,13 @@ class ViewFragment : Fragment() {
             ImageView(context).apply {// применяем цепочку вызовов к объекту, возвращает Unit(обратный вызов)
 
                 id = View.generateViewId()
-                layoutParams = ViewGroup.LayoutParams(150, 150)
+                layoutParams = ViewGroup.LayoutParams(350, 350)
             }
         Picasso.get().load(coffee.imageURL).into(imageView)
         val textViewSortName = TextView(context).apply {
             text = coffee.sort
             id = View.generateViewId()
+            textSize = 30f
         }
         val textViewPrice = TextView(context).apply {
             text = coffee.price.toString()
@@ -78,7 +80,7 @@ class ViewFragment : Fragment() {
             ConstraintSet.START,
             ConstraintSet.PARENT_ID,
             ConstraintSet.START,
-            15
+            25
         )
         set.connect(imageView.id, ConstraintSet.TOP, ConstraintSet.PARENT_ID, ConstraintSet.TOP, 10)
         set.connect(
@@ -86,28 +88,28 @@ class ViewFragment : Fragment() {
             ConstraintSet.END,
             ConstraintSet.PARENT_ID,
             ConstraintSet.END,
-            15
+            25
         )
         set.connect(
             textViewSortName.id,
             ConstraintSet.TOP,
             ConstraintSet.PARENT_ID,
             ConstraintSet.TOP,
-            15
+            25
         )
         set.connect(
             textViewPrice.id,
             ConstraintSet.END,
             ConstraintSet.PARENT_ID,
             ConstraintSet.END,
-            15
+            25
         )
         set.connect(
             textViewPrice.id,
             ConstraintSet.TOP,
             textViewSortName.id,
             ConstraintSet.BOTTOM,
-            15
+            25
         )
         set.connect(
             horizontalLine.id,

@@ -18,21 +18,20 @@ class FirstFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_first, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        val nav = findNavController()
         addSort.setOnClickListener {
-            val nav =findNavController()
             nav.navigate(R.id.action_firstFragment_to_addFragment)
+            //   Log.e("tag", "addSort")
         }
-        ViewSort.setOnClickListener {
-            val nav =findNavController()
+        viewSort.setOnClickListener {
             nav.navigate(R.id.action_firstFragment_to_viewFragment)
+            //    Log.e("tag", "ViewSort")
         }
-
     }
 }

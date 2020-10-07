@@ -12,24 +12,24 @@
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
         android:src="@drawable/coffetime"
-        tools:layout_editor_absoluteX="197dp"
-        tools:layout_editor_absoluteY="16dp" />
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="0dp" />
 
     <Button
         android:id="@+id/addSort"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
         android:background="@drawable/style_btn_stroke_black95_white"
         android:paddingLeft="15dp"
         android:paddingRight="15dp"
         android:text="@string/addSort"
         android:textSize="20dp"
-
-        app:layout_constraintBottom_toTopOf="@+id/ViewSort"
+        app:layout_constraintBottom_toTopOf="@+id/viewSort"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/ViewSort"
+        android:id="@+id/viewSort"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"

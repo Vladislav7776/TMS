@@ -19,9 +19,19 @@
     <fragment
         android:id="@+id/addFragment"
         android:name="bunkou.tms.HomeWork5.AddFragment"
-        tools:layout="@layout/fragment_second" />
+        tools:layout="@layout/fragment_second" >
+
+        <action
+            android:id="@+id/action_addFragment_to_firstFragment"
+            app:destination="@id/firstFragment" />
+    </fragment>
     <fragment
         android:id="@+id/viewFragment"
         android:name="bunkou.tms.HomeWork5.ViewFragment"
-        tools:layout="@layout/fragment_third" />
+        tools:layout="@layout/fragment_third" >
+
+        <action
+            android:id="@+id/action_viewFragment_to_firstFragment"
+            app:destination="@id/firstFragment" />
+    </fragment>
 </navigation>
