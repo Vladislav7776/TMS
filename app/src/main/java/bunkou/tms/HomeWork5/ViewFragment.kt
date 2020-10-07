@@ -38,7 +38,7 @@ class ViewFragment : Fragment() {
         }
     }
 
-  private  fun addSort(coffee: DataCoffe) {
+    private fun addSort(coffee: DataCoffe) {
         val brand = context?.let { // получаем доступ к ресурсам
             ConstraintLayout(it)  // аргумент it является не nullable-версией исходного объекта.
         }

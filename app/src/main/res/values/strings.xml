@@ -48,6 +48,18 @@
     <string name="title_activity_flag">MainActivity</string>
     <string name="title_activity_harvesting">Harvesting</string>
     <string name="title_activity_coffe">Coffe</string>
+
+
+    <string name="name_str">Name</string>
+    <string name="password_str">Password</string>
+    <string name="register_str">Register</string>
+    <string name="successSign">You are register. Congratulations!!!</string>
+    <string name="unsuccessSign">Registration rejected</string>
+    <string name="setTitle">Success</string>
+    <string name="setTitle2">Unsuccess</string>
+    <string name="cancel">OK</string>
+    <string name="accept">Sign in</string>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
