@@ -7,6 +7,7 @@ import bunkou.tms.HomeWork2.MainActivity2
 import bunkou.tms.HomeWork3.MainActivity3
 import bunkou.tms.HomeWork5.Coffe
 import bunkou.tms.HomeWork4.Harvesting
+import bunkou.tms.HomeWork6.MaterialActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -33,9 +34,12 @@ class MainActivity : AppCompatActivity() {
 
         button4.setOnClickListener {
 
-            val  myIntent = Intent(this, Coffe::class.java)
+            val myIntent = Intent(this, Coffe::class.java)
             startActivity(myIntent)
         }
-
+        button5.setOnClickListener {
+            val myIntent = Intent(this, MaterialActivity::class.java)
+            startActivity(myIntent)
+        }
     }
 }

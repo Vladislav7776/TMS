@@ -11,10 +11,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".HomeWork6.activity_sign_in"></activity>
         <activity
             android:name=".HomeWork5.Coffe"
             android:label="@string/title_activity_coffe"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".HomeWork4.Harvesting"
             android:label="@string/title_activity_harvesting"
@@ -42,6 +43,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".HomeWork6.MaterialActivity" />
     </application>
 
 </manifest>
