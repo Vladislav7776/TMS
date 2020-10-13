@@ -22,5 +22,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(myIntent)
         }
 
+        button3.setOnClickListener {
+            val myIntent = Intent(this,Harvesting::class.java)
+            startActivity(myIntent)
+        }
+
     }
 }

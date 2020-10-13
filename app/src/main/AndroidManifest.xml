@@ -12,9 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".Harvesting"
+            android:label="@string/title_activity_harvesting"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
             android:name=".FlagActivity"
             android:label="@string/title_activity_flag"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".AnimationActivity"
             android:label="@string/title_activity_animation"

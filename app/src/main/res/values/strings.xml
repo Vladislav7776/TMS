@@ -9,6 +9,10 @@
     <string name="dz_1">DZ-1</string>
     <string name="dz_2">DZ-2</string>
     <string name="dz_3">DZ-3</string>
+    <string name="dz_4">DZ-4</string>
+    <string name="dz_5">DZ-5</string>
+    <string name="dz_6">DZ-6</string>
+    <string name="dz_7">DZ-7</string>
     <string name="flag">Flags</string>
     <string name="animation">Animation</string>
     <string name="Spain">Spain</string>
@@ -19,6 +23,11 @@
     <string name="Denmark">Denmark</string>
     <string name="Start">Start</string>
     <string name="Stop">Stop</string>
+    <string name="Olives">Olives - 0</string>
+    <string name="Grapes">Grapes - 0</string>
+    <string name="Peaches">Peaches - 0</string>
+    <string name="Greece">Greece :</string>
+    <string name="Italy">Italy :</string>
     <string name="title_activity_main3">MainActivity3</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
@@ -28,6 +37,7 @@
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="title_activity_animation">MainActivity</string>
     <string name="title_activity_flag">MainActivity</string>
+    <string name="title_activity_harvesting">Harvesting</string>
 
 
 </resources>
