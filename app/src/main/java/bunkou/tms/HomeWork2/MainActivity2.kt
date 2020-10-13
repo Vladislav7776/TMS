@@ -1,8 +1,8 @@
-package bunkou.tms
+package bunkou.tms.HomeWork2
 
 import android.os.Bundle
-import android.view.View
 import androidx.appcompat.app.AppCompatActivity
+import bunkou.tms.R
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.activity_main2.*
 
