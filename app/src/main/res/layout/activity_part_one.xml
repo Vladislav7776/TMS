@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mothersday"
+    tools:context=".HomeWork7.Part_one">
+
+    <TextView
+        android:id="@+id/textViewPaz1"
+        android:layout_width="351dp"
+        android:layout_height="311dp"
+        android:layout_marginTop="190dp"
+        android:text="Мамочка любимая,
+Будь самая красивая,
+Никем не повторимая
+И больше всех счастливая."
+        android:textSize="32dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_start_animation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/button_selector"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="Анимация"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/textViewPaz1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonСontinue"
+        android:layout_width="243dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="144dp"
+        android:background="@drawable/button_selector"
+        android:text="Продолжение"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPaz1" />
+
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.498"
+    app:layout_constraintStart_toStartOf="parent"
+    tools:layout_editor_absoluteY="247dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
