@@ -11,10 +11,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".HomeWork7.Part_two"></activity>
+        <activity android:name=".HomeWork8.MainBake"></activity>
+        <activity android:name=".HomeWork7.Part_two" />
         <activity android:name=".HomeWork7.Part_one" />
         <activity android:name=".HomeWork7.MothersDayActivity" />
-        <activity android:name=".HomeWork6.activity_sign_in" />
+        <activity android:name=".HomeWork6.Activity_sign_in" />
         <activity
             android:name=".HomeWork5.Coffe"
             android:label="@string/title_activity_coffe"
