@@ -13,10 +13,11 @@
         android:scaleType="centerCrop"
         android:src="@drawable/main_background"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp" />
+        tools:layout_editor_absoluteY="16dp" />
 
     <Button
         android:id="@+id/button"
+        android:onClick="homeWorkBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="120dp"
@@ -29,76 +30,113 @@
 
     <Button
         android:id="@+id/button2"
+        android:onClick="homeWorkBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="12dp"
         android:background="@drawable/button_stroke_black95_press_white"
         android:text="@string/dz_2"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintHorizontal_bias="0.144"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button" />
 
     <Button
         android:id="@+id/button3"
+        android:onClick="homeWorkBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="12dp"
         android:background="@drawable/button_stroke_black95_press_white"
         android:text="@string/dz_3"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.848"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintTop_toBottomOf="@+id/button" />
 
     <Button
         android:id="@+id/button4"
+        android:onClick="homeWorkBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:background="@drawable/button_stroke_black95_press_white"
         android:text="@string/dz_4"
         android:textSize="30sp"
-        android:layout_marginTop="16dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.851"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button3" />
 
     <Button
         android:id="@+id/button5"
+        android:onClick="homeWorkBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:background="@drawable/button_stroke_black95_press_white"
         android:text="@string/dz_5"
         android:textSize="30sp"
-        android:layout_marginTop="16dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.148"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button4" />
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
 
     <Button
         android:id="@+id/button6"
+        android:onClick="homeWorkBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:background="@drawable/button_stroke_black95_press_white"
         android:text="@string/dz_6"
         android:textSize="30sp"
-        android:layout_marginTop="16dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.144"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button5" />
 
     <Button
         android:id="@+id/button7"
+        android:onClick="homeWorkBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:background="@drawable/button_stroke_black95_press_white"
         android:text="@string/dz_7"
         android:textSize="30sp"
-        android:layout_marginTop="16dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.848"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+    <Button
+        android:id="@+id/button8"
+        android:onClick="homeWorkBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_stroke_black95_press_white"
+        android:text="@string/dz_8"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.851"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button7" />
+
+    <Button
+        android:id="@+id/button9"
+        android:onClick="homeWorkBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_stroke_black95_press_white"
+        android:text="@string/dz_9"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.148"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button6" />
 

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg"
-    tools:context=".HomeWork6.activity_sign_in">
+    tools:context=".HomeWork6.Activity_sign_in">
 
     <TextView
         android:id="@+id/textViewFinish"

@@ -14,7 +14,7 @@ abstract class BakeDb : RoomDatabase() {
     abstract fun bakedao(): Bakedao
 }
 
-object db {
+object Db {
 
     fun getDB(ctx: Context) =
         Room.databaseBuilder(ctx, BakeDb::class.java, "BakeDataBase").build()

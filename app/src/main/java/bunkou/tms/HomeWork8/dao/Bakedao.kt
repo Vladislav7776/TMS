@@ -6,7 +6,6 @@ import androidx.room.Insert
 import androidx.room.Query
 import bunkou.tms.HomeWork8.entity.Bake
 
-
 @Dao
 interface Bakedao {
 
@@ -33,5 +32,9 @@ interface Bakedao {
 
     @Query("DELETE FROM bake_table")
     suspend fun clearDatabase()
+
+//    @Query("SELECT * FROM bake_table WHERE bake_name LIKE: name")
+//    suspend fun getBakeByName(name: String): List<Bake>
+
 
 }
