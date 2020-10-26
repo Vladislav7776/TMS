@@ -8,6 +8,7 @@ import bunkou.tms.HomeWork3.MainActivity3
 import bunkou.tms.HomeWork5.Coffe
 import bunkou.tms.HomeWork4.Harvesting
 import bunkou.tms.HomeWork6.MaterialActivity
+import bunkou.tms.HomeWork7.MothersDayActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -41,5 +42,10 @@ class MainActivity : AppCompatActivity() {
             val myIntent = Intent(this, MaterialActivity::class.java)
             startActivity(myIntent)
         }
+        button6.setOnClickListener {
+            val myIntent = Intent(this, MothersDayActivity::class.java)
+            startActivity(myIntent)
+        }
+
     }
 }
