@@ -13,12 +13,13 @@ import bunkou.tms.R
 import kotlinx.android.synthetic.main.activity_bake.*
 import kotlinx.android.synthetic.main.activity_bake.view.*
 import kotlinx.android.synthetic.main.recycler_layout.*
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
 
 class MainBake : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_bake)
-
 
         val db: Bakedao = Db.getDB(applicationContext).bakedao()
 
@@ -38,19 +39,8 @@ class MainBake : AppCompatActivity() {
         }
 
         btn_read.setOnClickListener {
-            launchIo {
-                launchForResult {
-                    val result: List<Bake> = db.allbake_table()
 
-                    launchUi {
-
-                        val adapter = BakeAdapter(result)
-                        bakeRecycler.adapter = adapter
-                        bakeRecycler.layoutManager = LinearLayoutManager(this)
-                        bakeRecycler.hasFixedSize()
-                    }
-                }
-            }
+            startActivity(Intent(this, RecyclerActivity::class.java))
         }
 
         btn_clear.setOnClickListener {
