@@ -6,19 +6,6 @@
         android:fromXDelta="50%"
         android:toXDelta="0%" />
 
-<!--    <alpha-->
-<!--        android:duration="1000"-->
-<!--        android:fromAlpha="0.0"-->
-<!--        android:toAlpha="1.0"/>-->
-
-<!--    <rotate-->
-<!--        android:duration="1000"-->
-<!--        android:fromDegrees="0"-->
-<!--        android:toDegrees="360"-->
-<!--        android:pivotX="50%"-->
-<!--        android:pivotY="50%"-->
-<!--        />-->
-
     <scale
         android:duration="2000"
         android:fromXScale="0"

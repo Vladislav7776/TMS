@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:background="#FFFEFE"
+    app:cardCornerRadius="16dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FAF74B">
+
+        <ImageView
+            android:id="@+id/photo"
+            android:layout_width="113dp"
+            android:layout_height="106dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/BakeName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/photo"
+            app:layout_constraintTop_toTopOf="@+id/photo"
+            tool:text="LTD" />
+
+        <TextView
+            android:id="@+id/BakemaxSpeed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="36dp"
+            android:hint="77km/h"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@+id/photo"
+            app:layout_constraintStart_toEndOf="@+id/photo" />
+
+        <TextView
+            android:id="@+id/Bakeweight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="36dp"
+            android:hint="23"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@+id/photo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/BakemaxSpeed" />
+
+        <TextView
+            android:id="@+id/Bakeprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="900"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@+id/photo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.509"
+            app:layout_constraintStart_toEndOf="@+id/photo" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

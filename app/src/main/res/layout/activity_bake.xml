@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/text_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="name"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/text_Speed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="maxSpeed"
+        app:layout_constraintTop_toBottomOf="@+id/text_name" />
+
+    <EditText
+        android:id="@+id/text_weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="weight"
+        app:layout_constraintTop_toBottomOf="@+id/text_Speed" />
+
+    <EditText
+        android:id="@+id/text_number_photoUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="photoUrl"
+        app:layout_constraintTop_toBottomOf="@+id/text_weight" />
+
+    <EditText
+        android:id="@+id/text_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="price"
+        app:layout_constraintTop_toBottomOf="@+id/text_number_photoUrl" />
+
+    <Button
+        android:id="@+id/btn_put"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="32dp"
+        android:text="put"
+        app:layout_constraintTop_toBottomOf="@+id/text_price" />
+
+    <Button
+        android:id="@+id/btn_read"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="32dp"
+        android:text="read"
+        app:layout_constraintTop_toBottomOf="@+id/btn_put" />
+
+    <Button
+        android:id="@+id/btn_clear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="32dp"
+        android:text="clear"
+        app:layout_constraintTop_toBottomOf="@+id/btn_read" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
