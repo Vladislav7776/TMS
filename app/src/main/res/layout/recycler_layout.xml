@@ -36,7 +36,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/search_bake_by_name"
         app:layout_constraintVertical_bias="0.0"
-        tools:layout_editor_absoluteX="4dp" />
+        tools:layout_editor_absoluteX="4dp"
+        tools:listitem="@layout/item_bake"/>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/add_bake"
