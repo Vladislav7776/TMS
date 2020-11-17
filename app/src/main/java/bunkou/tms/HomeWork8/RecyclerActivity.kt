@@ -2,6 +2,7 @@ package bunkou.tms.HomeWork8
 
 import android.content.Intent
 import android.os.Bundle
+import android.widget.Adapter
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import bunkou.tms.HomeWork8.dao.Bakedao
@@ -10,6 +11,7 @@ import bunkou.tms.HomeWork8.utils.launchForResult
 import bunkou.tms.HomeWork8.utils.launchIo
 import bunkou.tms.HomeWork8.utils.launchUi
 import bunkou.tms.R
+import kotlinx.android.synthetic.main.activity_bake.view.*
 import kotlinx.android.synthetic.main.recycler_layout.*
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext

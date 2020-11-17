@@ -11,6 +11,7 @@ import bunkou.tms.HomeWork4.Harvesting
 import bunkou.tms.HomeWork6.MaterialActivity
 import bunkou.tms.HomeWork7.MothersDayActivity
 import bunkou.tms.HomeWork8.MainBake
+import bunkou.tms.HomeWork9.MainRetrofitActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -28,6 +29,7 @@ class MainActivity : AppCompatActivity() {
             R.id.button5 -> Intent(this, MaterialActivity::class.java)
             R.id.button6 -> Intent(this, MothersDayActivity::class.java)
             R.id.button7 -> Intent(this, MainBake::class.java)
+            R.id.button8-> Intent(this,MainRetrofitActivity::class.java)
             else -> null
         }
         if (myIntent != null) {

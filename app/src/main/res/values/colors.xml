@@ -6,6 +6,7 @@
     <color name="white">#ffffff</color>
     <color name="black95">#95000000</color>
     <color name="red">#FF0000</color>
+    <color name="green">#4CAF50</color>
     <color name="turquoise">#00BCD4</color>
 
     //Material SearchBar Light Theme Colors
