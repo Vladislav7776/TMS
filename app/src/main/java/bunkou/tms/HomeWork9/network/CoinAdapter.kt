@@ -33,7 +33,6 @@ class CoinAdapter(
         with(holder.itemView) {
             val item = coinSet[position]
             name.text = item.name
-          //  price.text = item.price.toString()
 
             if (item.price!!.toDouble() < 1) {
             price.text = "$" + String.format("%.6f", item.price)
@@ -41,17 +40,15 @@ class CoinAdapter(
             price.text = "$" + String.format("%.2f", item.price)
         }
 
-
-
-            percentChange.text = "1 hours: "   + String.format("%.2f", item.percentChange) + "%" //+ item.percentChange.toString()
+            percentChange.text = "1 hours: "   + String.format("%.2f", item.percentChange) + "%"
 
             var color = getColor(context, R.color.green)
-            if (coinSet[position].percentChange!! < 0) {
+            if (item.percentChange!! < 0) {
                 color = getColor(context, R.color.red)
             }
             percentChange.setTextColor(color)
-
-            Picasso.get().load(URL_IMAGE + item.id.toString() + ".png").into(holder.logoURl)
+            val logoURl: ImageView = imageView
+            Picasso.get().load(URL_IMAGE + item.id.toString() + ".png").into(logoURl)
         }
     }
 
@@ -60,10 +57,6 @@ class CoinAdapter(
     }
 
     inner class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
-        val logoURl: ImageView = view.imageView
-        val name: TextView = view.name
-        val price: TextView = view.price
-        val percentChange: TextView = view.percentChange
 
     }
 }
