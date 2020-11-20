@@ -12,8 +12,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".HomeWork10.MainActivityNotification"></activity>
         <activity android:name=".HomeWork9.MainRetrofitActivity" />
-        <activity android:name=".HomeWork8.MainBake"></activity>
+        <activity android:name=".HomeWork8.MainBake" />
         <activity android:name=".HomeWork7.Part_two" />
         <activity android:name=".HomeWork7.Part_one" />
         <activity android:name=".HomeWork7.MothersDayActivity" />

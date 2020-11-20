@@ -4,6 +4,7 @@ import  android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import bunkou.tms.HomeWork10.MainActivityNotification
 import bunkou.tms.HomeWork2.MainActivity2
 import bunkou.tms.HomeWork3.MainActivity3
 import bunkou.tms.HomeWork5.Coffe
@@ -30,6 +31,7 @@ class MainActivity : AppCompatActivity() {
             R.id.button6 -> Intent(this, MothersDayActivity::class.java)
             R.id.button7 -> Intent(this, MainBake::class.java)
             R.id.button8-> Intent(this,MainRetrofitActivity::class.java)
+            R.id.button9-> Intent(this,MainActivityNotification::class.java)
             else -> null
         }
         if (myIntent != null) {
