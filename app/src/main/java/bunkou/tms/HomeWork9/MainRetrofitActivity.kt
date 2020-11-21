@@ -29,7 +29,7 @@ class MainRetrofitActivity : AppCompatActivity() {
             if (response.isSuccessful) {
                 val coinsResponse = response.body()
                 val coins = coinsResponse?.data?.map {
-                    it?.let { it1 -> CoinMapper.map(it1) }
+                    it?.let { coin -> CoinMapper.map(coin) }
                 }
                 withContext(Dispatchers.Main) {
                     val adapter = CoinAdapter(coins as List<Coin>)
