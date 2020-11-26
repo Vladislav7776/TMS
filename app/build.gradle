@@ -35,7 +35,7 @@ android {
 
 dependencies {
 //WorkManager
-    implementation 'androidx.work:work-runtime-ktx:2.4.0'
+    implementation 'androidx.work:work-runtime-ktx:2.3.4'
     implementation "android.arch.work:work-runtime:1.0.1"
     //Material Design Search Bar
     implementation 'com.github.mancj:MaterialSearchBar:0.8.5'
