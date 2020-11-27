@@ -32,7 +32,10 @@
         </activity>
 
         <activity android:name=".HomeWork11.MainWeather" />
-        <activity android:name=".HomeWork10.MainActivityNotification" />
+   
+
+        <activity android:name=".HomeWork10.MainActivityNotification"></activity>
+
         <activity android:name=".HomeWork9.MainRetrofitActivity" />
         <activity android:name=".HomeWork8.MainBake" />
         <activity android:name=".HomeWork7.Part_two" />
