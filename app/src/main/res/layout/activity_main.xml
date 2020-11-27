@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -15,13 +16,14 @@
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="0dp" />
 
+
     <Button
         android:id="@+id/button"
-        android:onClick="homeWorkBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="120dp"
         android:background="@drawable/button_stroke_black95_press_white"
+        android:onClick="homeWorkBtn"
         android:text="@string/dz_1"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -30,11 +32,11 @@
 
     <Button
         android:id="@+id/button2"
-        android:onClick="homeWorkBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
         android:background="@drawable/button_stroke_black95_press_white"
+        android:onClick="homeWorkBtn"
         android:text="@string/dz_2"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -44,11 +46,11 @@
 
     <Button
         android:id="@+id/button3"
-        android:onClick="homeWorkBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
         android:background="@drawable/button_stroke_black95_press_white"
+        android:onClick="homeWorkBtn"
         android:text="@string/dz_3"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -139,5 +141,35 @@
         app:layout_constraintHorizontal_bias="0.848"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button7" />
+
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_stroke_black95_press_white"
+        android:onClick="homeWorkBtn"
+        android:text="@string/dz_10"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.148"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button8" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_stroke_black95_press_white"
+        android:onClick="homeWorkBtn"
+        android:text="@string/dz_11"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.848"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button9" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

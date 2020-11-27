@@ -15,6 +15,8 @@
     <string name="dz_7">DZ-7</string>
     <string name="dz_8">DZ-8</string>
     <string name="dz_9">DZ-9</string>
+    <string name="dz_10">DZ-10</string>
+    <string name="dz_11">DZ-11</string>
     <string name="flag">Flags</string>
     <string name="animation">Animation</string>
     <string name="Spain">Spain</string>
@@ -67,6 +69,13 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="configure">Configure</string>
+    <string name="weather_image">weather image</string>
+    <string name="enter_city_name">Enter city name</string>
+    <string name="nothing">_</string>
+
 
 
 </resources>
