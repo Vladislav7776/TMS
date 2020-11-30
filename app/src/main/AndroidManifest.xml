@@ -30,7 +30,7 @@
                 <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
             </intent-filter>
         </activity>
-
+        <activity android:name=".HomeWork12.MainLight" />
         <activity android:name=".HomeWork11.MainWeather" />
         <activity android:name=".HomeWork10.MainActivityNotification" />
         <activity android:name=".HomeWork9.MainRetrofitActivity" />
