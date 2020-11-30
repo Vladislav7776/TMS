@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import bunkou.tms.HomeWork10.MainActivityNotification
+
 import bunkou.tms.HomeWork11.MainWeather
 import bunkou.tms.HomeWork11.WeatherAppWidgetConfigureActivity
 import bunkou.tms.HomeWork12.MainLight
@@ -33,10 +34,11 @@ class MainActivity : AppCompatActivity() {
             R.id.button5 -> Intent(this, MaterialActivity::class.java)
             R.id.button6 -> Intent(this, MothersDayActivity::class.java)
             R.id.button7 -> Intent(this, MainBake::class.java)
-            R.id.button8 -> Intent(this, MainRetrofitActivity::class.java)
-            R.id.button9 -> Intent(this, MainActivityNotification::class.java)
             R.id.button10 -> Intent(this, MainWeather::class.java)
             R.id.button11 -> Intent(this, MainLight::class.java)
+            R.id.button8-> Intent(this,MainRetrofitActivity::class.java)
+            R.id.button9-> Intent(this,MainActivityNotification::class.java)
+
             else -> null
         }
         if (myIntent != null) {
