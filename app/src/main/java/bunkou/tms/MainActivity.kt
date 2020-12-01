@@ -34,11 +34,16 @@ class MainActivity : AppCompatActivity() {
             R.id.button5 -> Intent(this, MaterialActivity::class.java)
             R.id.button6 -> Intent(this, MothersDayActivity::class.java)
             R.id.button7 -> Intent(this, MainBake::class.java)
-            R.id.button8 -> Intent(this, MainRetrofitActivity::class.java)
-            R.id.button9 -> Intent(this, MainActivityNotification::class.java)
+
+
             R.id.button10 -> Intent(this, MainWeather::class.java)
+
             R.id.button11 -> Intent(this, MainLight::class.java)
             R.id.button12 -> Intent(this, MainFibonacci::class.java)
+
+            R.id.button8-> Intent(this,MainRetrofitActivity::class.java)
+            R.id.button9-> Intent(this,MainActivityNotification::class.java)
+
             else -> null
         }
         if (myIntent != null) {
