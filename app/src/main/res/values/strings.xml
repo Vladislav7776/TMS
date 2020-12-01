@@ -80,6 +80,9 @@
 
     <string name="illumination_value">Illumination value</string>
 
+    <string name="enter_the_number_of_the_fibonacci_number">Enter the number of the fibonacci number</string>
+    <string name="enter_number">Enter number</string>
+    <string name="calculate">Calculate</string>
 
 
 </resources>

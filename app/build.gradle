@@ -94,6 +94,11 @@ dependencies {
 
     implementation 'com.kovachcode:timePickerWithSeconds:1.0.1'
     implementation 'com.shawnlin:number-picker:2.4.11'
+    // Teast
     testImplementation 'junit:junit:4.13.1'
+    androidTestImplementation "com.google.truth:truth:1.1"
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    androidTestImplementation 'androidx.test:runner:1.3.0'
+    androidTestImplementation 'androidx.test:rules:1.3.0'
 
 }
