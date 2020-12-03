@@ -24,15 +24,18 @@
                 android:name="android.appwidget.provider"
                 android:resource="@xml/widget_weather_info" />
         </receiver>
-
         <activity android:name=".HomeWork11.WeatherAppWidgetConfigureActivity">
-            <intent-filter>
-                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
-            </intent-filter>
+        <intent-filter>
+            <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+        </intent-filter>
         </activity>
+
+        <activity android:name=".HomeWork14.MainCovid" />
         <activity android:name=".HomeWork12.MainLight" />
         <activity android:name=".HomeWork11.MainWeather" />
-        <activity android:name=".HomeWork10.MainActivityNotification" />
+
+
+        <activity android:name=".HomeWork10.MainActivityNotification"></activity>
         <activity android:name=".HomeWork9.MainRetrofitActivity" />
         <activity android:name=".HomeWork8.MainBake" />
         <activity android:name=".HomeWork7.Part_two" />
@@ -72,6 +75,7 @@
         </activity>
         <activity android:name=".HomeWork6.MaterialActivity" />
         <activity android:name=".HomeWork8.RecyclerActivity" />
+
     </application>
 
 </manifest>
