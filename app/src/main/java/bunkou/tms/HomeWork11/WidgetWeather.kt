@@ -11,6 +11,7 @@ import android.widget.RemoteViews
 import bunkou.tms.HomeWork11.entity.CurrentWeather
 import bunkou.tms.HomeWork11.mappers.WeatherMapper
 import bunkou.tms.HomeWork11.retrofit.RetrofitWeatherFactory
+import bunkou.tms.HomeWork8.utils.launchIo
 import bunkou.tms.R
 import com.squareup.picasso.Picasso
 import kotlinx.coroutines.*
@@ -19,6 +20,7 @@ import kotlin.math.roundToInt
 private const val WIDGET_REQUEST_CODE = 2121
 
 class WeatherAppWidget : AppWidgetProvider() {
+
 
     override fun onUpdate(
         context: Context,
@@ -64,11 +66,7 @@ internal fun updateAppWidget(
     // Construct the RemoteViews object
     val remoteViews = RemoteViews(context.packageName, R.layout.weather_app_widget)
     addWidgetClickListener(context, remoteViews)
-    fun launchIo(task: suspend () -> Unit) {
-        CoroutineScope(Dispatchers.IO).launch {
-            task()
-        }
-    }
+
     launchIo {
         with(remoteViews) {
             setViewVisibility(R.id.progress_update_pb, View.VISIBLE)
