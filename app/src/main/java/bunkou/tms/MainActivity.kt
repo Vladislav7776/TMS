@@ -10,6 +10,7 @@ import bunkou.tms.HomeWork11.MainWeather
 import bunkou.tms.HomeWork11.WeatherAppWidgetConfigureActivity
 import bunkou.tms.HomeWork12.MainLight
 import bunkou.tms.HomeWork13.MainFibonacci
+import bunkou.tms.HomeWork14.MainCovid
 import bunkou.tms.HomeWork2.MainActivity2
 import bunkou.tms.HomeWork3.MainActivity3
 import bunkou.tms.HomeWork5.Coffe
@@ -46,10 +47,14 @@ class MainActivity : AppCompatActivity() {
 
             R.id.button12 -> Intent(this, MainFibonacci::class.java)
 
+            R.id.button13 -> Intent(this, MainCovid::class.java)
+
+
 
 
             R.id.button8-> Intent(this,MainRetrofitActivity::class.java)
             R.id.button9-> Intent(this,MainActivityNotification::class.java)
+
 
             else -> null
         }
